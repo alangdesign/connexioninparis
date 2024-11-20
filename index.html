@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>flipbook-from-booklet</title>
+<meta name="apple-mobile-web-app-title" content="flipbook-from-booklet">
+<meta name="generator" content="In5 v3.8.21">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=.2,maximum-scale=1.0,user-scalable=no">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
+<script type="text/javascript" src="assets/js/vmouse.min.js"></script>
+<script type="text/javascript" src="assets/js/turn.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="assets/js/in5.config.js"></script>
+<link rel="stylesheet" href="assets/css/pages.css" media="all">
+<style media="all and (-ms-high-contrast:none)">*::-ms-backdrop,.svg-img{width:100%;}</style>
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<div id="loadIndicator"><img src="assets/images/loading.gif" alt="loading..."/><span>&nbsp;</span></div>
+<div id="container-wrap">
+<div id="container">
+<ul class="pages flip" id="slider">
+ <li class="page" data-name="1">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item279" data-src="assets/images/item_279.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="2">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:612px !important;" id="item301" data-src="assets/images/item_301.png"/>
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item295" data-src="assets/images/item_295.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="3">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:612px !important;" id="item301" data-src="assets/images/item_301.png"/>
+   </div>
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item295" data-src="assets/images/item_295.png"/>
+   </div>
+  </div>
+ </li>
+ <li class="page" data-name="4">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item316" data-src="assets/images/item_316.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="5">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:19px !important;" id="item322" data-src="assets/images/item_322.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="6">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:595px !important;" id="item342" data-src="assets/images/item_342.png"/>
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item336" data-src="assets/images/item_336.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="7">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:595px !important;" id="item342" data-src="assets/images/item_342.png"/>
+   </div>
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item336" data-src="assets/images/item_336.png"/>
+   </div>
+  </div>
+ </li>
+ <li class="page" data-name="8">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:612px !important;" id="item363" data-src="assets/images/item_363.png"/>
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item355" data-src="assets/images/item_355.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="9">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:612px !important;" id="item363" data-src="assets/images/item_363.png"/>
+   </div>
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item355" data-src="assets/images/item_355.png"/>
+   </div>
+  </div>
+ </li>
+ <li class="page" data-name="10">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:612px !important;" id="item383" data-src="assets/images/item_383.png"/>
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item377" data-src="assets/images/item_377.png"/>
+  </div>
+ </li>
+ <li class="page" data-name="11">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" style="left:612px !important;" id="item383" data-src="assets/images/item_383.png"/>
+   </div>
+   <div class="spread-shift" style="left:-612px;">
+    <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item377" data-src="assets/images/item_377.png"/>
+   </div>
+  </div>
+ </li>
+ <li class="page" data-name="12">
+  <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:612px;height:434px;">
+   <img src="assets/images/blank.gif" alt="Rectangle" class="pageItem hd" id="item397" data-src="assets/images/item_397.png"/>
+  </div>
+ </li>
+</ul>
+<div id="prefooter" style="float:left;height:1px;">&nbsp;</div>
+</div>
+<footer id="in5footer"><a href="http://ajarproductions.com/pages/products/in5/?ref=footer" target="_blank" >Built with in5</a>.</footer>
+</div>
+<nav id="page-nav">
+<button id="nextBtn" name="nextBtn" aria-label="next page button">&nbsp;</button>
+<button id="backBtn" name="backBtn" aria-label="previous page button">&nbsp;</button>
+</nav>
+</body>
+</html>
